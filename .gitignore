@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Build artifacts
+dist/
+*.app
+*.dSYM/
+*.xcarchive/
+
+# Logs and local environment
+*.log
+.env
+.env.*
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+*.swo

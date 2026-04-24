@@ -2,9 +2,13 @@
 
 ![Swifty Roguelike screenshot](swifty-roguelike-screenshot.png)
 
-Swifty Roguelike is a native macOS dungeon crawler built with SwiftUI and SwiftPM. It renders a classic ASCII roguelike board inside a modern glassy macOS interface, with procedural rooms, turn-based movement, combat, loot, leveling, and descendable dungeon floors.
+Swifty Roguelike is a small experiment in building a game with an AI pair programmer from the first spark to a playable native app.
 
-## Current Status
+The entire project was created with GPT-5.5. The visual direction came from the `$imagegen` skill using ChatGPT Images 2.0, then the game was implemented as a native macOS SwiftUI app: a classic ASCII roguelike board wrapped in a modern glass interface, with procedural rooms, turn-based movement, combat, loot, leveling, and descendable dungeon floors.
+
+The goal is not to pretend this is a finished game. It is a snapshot of what it feels like to ask for a vibe, turn that vibe into a real app, tighten the code, add a screenshot, publish the repo, and keep the whole thing small enough that you can still understand it in one sitting.
+
+## What Is Here
 
 This is an early playable prototype. The app currently includes:
 
@@ -14,6 +18,18 @@ This is an early playable prototype. The app currently includes:
 - Loot pickup for gold, potions, and runic shards.
 - Player stats, inventory, nearby loot, equipment, run metadata, and combat log side panels.
 - A generated `.app` bundle workflow for local runs.
+
+## How It Was Made
+
+This repository was built as a conversation:
+
+1. Generate a mood and visual target with `$imagegen` and ChatGPT Images 2.0.
+2. Scaffold a SwiftPM macOS app.
+3. Build the roguelike loop: map generation, movement, combat, loot, and leveling.
+4. Refine the SwiftUI interface into a glassy three-panel dungeon dashboard.
+5. Clean up the codebase for a first public GitHub release.
+
+That process is part of the project. The app is both a playable prototype and a little artifact of AI-assisted software creation.
 
 ## Requirements
 
